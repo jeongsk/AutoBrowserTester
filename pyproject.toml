@@ -1,0 +1,15 @@
+[project]
+name = "laas-e2e-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.1.40",
+    "langchain-anthropic>=0.3.3",
+    "odfpy>=1.4.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pyperclip>=1.9.0",
+    "streamlit>=1.44.1",
+]
